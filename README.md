@@ -28,13 +28,3 @@ This is a Python-based document question answering system built with **Streamlit
 4. **Claude API Call**:
    - The most relevant chunk is used as context in a Claude 3 Haiku prompt.
 
-![Architecture Diagram](link_to_design_if_available)
-
----
-
-## ⚙️ Setup Instructions
-
-1. Clone this repo:
-```bash
-git clone https://github.com/your-username/document-qa-claude.git
-cd document-qa-claude
