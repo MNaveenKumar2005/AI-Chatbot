@@ -20,7 +20,7 @@ import anthropic
 
 # Load environment variables
 load_dotenv()
-ANTHROPIC_API_KEY = st.secrets["ANTHROPIC_API_KEY"]
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 
 # Tesseract path
 pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
